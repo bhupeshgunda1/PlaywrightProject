@@ -25,5 +25,6 @@ export class HomePage extends BasePage {
 
   async getUserGreeting(): Promise<string | null> {
     return await this.userGreeting.textContent();
+    
   }
 }

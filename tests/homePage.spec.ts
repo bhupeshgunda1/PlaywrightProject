@@ -34,5 +34,6 @@ test.describe('HomePage Tests', () => {
   await page.getByRole('textbox', { name: 'Your email address' }).click();
   await page.getByText('Copyright © 2021 All rights').click();
   await page.getByRole('link', { name: 'Website for automation' }).click();
-  });
+  console.log('HomePage validation test completed successfully.');
+});
 });
