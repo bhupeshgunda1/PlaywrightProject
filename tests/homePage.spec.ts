@@ -19,8 +19,8 @@ test.describe('HomePage Tests', () => {
     await page.goto('https://automationexercise.com/');
     await page.getByText('Automation').nth(3).click();
   await page.locator('.right').first().click();
-  await page.locator('.right').first().click();
-  await page.locator('.right').first().click();
+  //await page.locator('.right').first().click();
+  //await page.locator('.right').first().click();
   await page.getByRole('heading', { name: 'Features Items' }).click();
   await page.getByRole('heading', { name: 'Category' }).click();
   await page.getByRole('link', { name: ' Women' }).click();
